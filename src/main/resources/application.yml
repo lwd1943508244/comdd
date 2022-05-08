@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dong?serverTimezone=UTC
+    username: root
+    password: lwd20001011
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+
+
